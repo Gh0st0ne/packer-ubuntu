@@ -21,7 +21,7 @@ See https://atlas.hashicorp.com/quarkslab/boxes/ubuntu-16.10-server-amd64.
 
 Test it:
 ```bash
-    $ vagrant init quarkslab/ubuntu-16.10-amd64
+    $ vagrant init quarkslab/ubuntu-16.10-server-amd64
     $ vagrant up --provider vmware_workstation
 ```
 
