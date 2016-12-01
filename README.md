@@ -75,7 +75,7 @@ First, verify the authenticity of the README.md file using PGP.
 
 ```bash
     $ gpg --recv-keys 24CF4A6F
-    $ gpg --verify README.md.sig
+    $ gpg --verify README.md.sig README.md
 ```
 
 Now, you can take advantage of the `config.vm.box_download_checksum`
