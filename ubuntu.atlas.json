@@ -100,7 +100,7 @@
   ],
   "variables": {
     "atlas_box_name": "",
-    "atlas_username": "quarkslab",
+    "atlas_username": "",
     "boot_command_prefix": "<enter><wait><f6><esc><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs><bs>",
     "cleanup_pause": "",
     "cpus": "",
@@ -135,4 +135,3 @@
     "vmware_guest_os_type": "ubuntu-64"
   }
 }
-
