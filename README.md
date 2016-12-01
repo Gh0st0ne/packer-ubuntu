@@ -25,11 +25,13 @@ Test it:
     $ vagrant up --provider vmware_workstation
 ```
 
-| Provider       | Version  | Atlas link                       | SHA256                                                           |
-| :------:       | :-----:  | :--------:                       | :----:                                                           |
-| VMware_desktop | 20161130 | [link][16.10-amd64-server-amd64] | f60835c1e7b5ffa89050421da439f896e9ff26f034c8e65a487881c788f661eb |
+| Provider       | Version  | Atlas link                        | SHA256                                                           |
+| :------:       | :-----:  | :--------:                        | :----:                                                           |
+| virtualbox     | 20161201 | [link][16.10-20161201-virtualbox] | 316debc8adfa0155efa5ac7e9fc16b30658a3f72ef80f666b6cd238b284d1eb4 |
+| vmware_desktop | 20161130 | [link][16.10-20161130-vmware]     | f60835c1e7b5ffa89050421da439f896e9ff26f034c8e65a487881c788f661eb |
 
-[16.10-amd64-server-amd64]: https://atlas.hashicorp.com/quarkslab/boxes/ubuntu-16.10-server-amd64/versions/20161130/providers/vmware_desktop.box
+[16.10-20161201-virtualbox]: https://atlas.hashicorp.com/quarkslab/boxes/ubuntu-16.10-server-amd64/versions/20161201/providers/virtualbox.box
+[16.10-20161130-vmware]: https://atlas.hashicorp.com/quarkslab/boxes/ubuntu-16.10-server-amd64/versions/20161130/providers/vmware_desktop.box
 
 
 ### Ubuntu Server 16.04 AMD64
