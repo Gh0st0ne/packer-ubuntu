@@ -8,6 +8,7 @@ See original repo here: https://github.com/boxcutter/ubuntu.
     1. [Ubuntu Server 16.04 AMD64](#ubuntu-server-16.04-amd64)
 1. [Generate Boxes](#generate-boxes)
 1. [Security](#security)
+1. [Future improvements](#future-improvements)
 
 
 ## Boxes informations
@@ -73,6 +74,26 @@ Modify the README and sign it:
 
 ## Security
 
+### Using metadata catalog
+
+A simple way to stay up-to-date of new boxes is to use our metadata files
+(located in `medatada/` directory).
+
+Example, for your `Vagrantfile`:
+```
+    […]
+    config.vm.box = "quarkslab/ubuntu-16.10-server-amd64"
+    config.vm.box_url = "https://cdn.rawgit.com/quarkslab/packer-ubuntu/master/metadata/ubuntu-16.10-server-amd64.json"
+    […]
+```
+
+For the moment, we are using the [RawGit](https://rawgit.com/) service. So
+there is a need to check that informations return by this service  (especially
+checksums but box urls too) are the same as in this `README` file.
+
+
+### Using direct link to the box
+
 First, verify the authenticity of the README.md file using PGP.
 
 ```bash
@@ -84,7 +105,7 @@ Now, you can take advantage of the `config.vm.box_download_checksum`
 [Vagrantfile
 option](https://docs.vagrantup.com/v2/vagrantfile/machine_settings.html).
 
-An example of Vagrantfile:
+Example, for your `Vagrantfile`:
 ```
     […]
     config.vm.box_url = "https://atlas.hashicorp.com/quarkslab/boxes/ubuntu-16.04-amd64/versions/20160916/providers/vmware_desktop.box"
@@ -92,3 +113,8 @@ An example of Vagrantfile:
     config.vm.box_download_checksum_type = "sha256"
     […]
 ```
+
+
+## Future improvements
+
+[ ] Instead of using RawGit service, host the file on our own servers (via https)
