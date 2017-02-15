@@ -30,6 +30,20 @@
             ],
             "status": "active",
             "version": "20161130"
+        },
+        {
+            "description_html": null,
+            "description_markdown": null,
+            "providers": [
+                {
+                    "checksum": "9d55491270b317452d9dbc7939309cefcb81d3c5c2f61f3e5cb83c5cc60bb7b6",
+                    "checksum_type": "sha256",
+                    "name": "libvirt",
+                    "url": "https://vagrantcloud.com/quarkslab/boxes/ubuntu-16.10-server-amd64/versions/20170215/providers/libvirt.box"
+                }
+            ],
+            "status": "active",
+            "version": "20170215"
         }
     ]
 }
